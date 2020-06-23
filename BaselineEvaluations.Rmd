@@ -6,7 +6,7 @@ output:
   html_document:
     toc: true
     toc_depth: 2
-bibliography: ./Citations/NOAA_GSI.bib
+bibliography: ./Bib/NOAA_GSI.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +18,9 @@ library(adegenet)
 library(hierfstat)
 library(ggtree)
 
-load("./BaselineEvals.RData")
+load("./BaselineEvals.RData") #this file is too big for github, just download it
+# from dropbox and throw it in your working directory
+# https://www.dropbox.com/s/9b9nw8qc6uaqy93/BaselineEvals.RData?dl=0
 
 ```
 
